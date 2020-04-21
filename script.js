@@ -2,22 +2,7 @@ let bot = new RiveScript();
 
 let regex = /(instructor)|(office hours)|(textbook)|(classroom)|(time)|(website)|(prerequisites)|(objectives)/g;
 
-const BotType = {
-    GREETING: 1,
-    CASHIER: 2,
-};
-
-let botType = BotType.GREETING;
-
 const general = [
-    './brain.rive'
-];
-
-const service = [
-    './brain.rive'
-];
-
-const package = [
     './brain.rive'
 ];
 
@@ -49,6 +34,7 @@ function selfReply(message){
         message = message.toLowerCase();
         filtered = message;
     }
+
     console.log(filtered);
 
     bot.reply("local-user", filtered).then(function(reply) {
