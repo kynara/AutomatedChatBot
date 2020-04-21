@@ -1,9 +1,82 @@
 ! version = 2.0
 
-+ tracking
-- Great. Let's check you out. Can you list the items in your cart one by one?
++ (instructor)|[*] professor [*]
+- The instructor for this class is Brody Dingle
+
++ office hours
+- Office hours are flexible. Please visit https://brody.linguatorium.com/courses/appointment to book an appointment
+
++ textbook
+- The testbook is Dickson, M., Brew, C., & Meurers, D. (2013). Language and Computers.
+^ Wiley-Blackwell. ISBN 978-1-4051-8305-5. And it is mandatory.
+
++ (classroom)|[*] where [*]
+- Ross 0137. But now its just zoom :(
+
++ time|[*] when [*]
+- We meet at Ross 0137 from 3-4pm
+
++ website
+- https://brody.linguatorium.com/courses
+
++ prerequisites
+- There are no prerequisites.
+
++ [*] objectives [*]
+- This is an introductory course that bridges linguistics (the study of language) and computer science.
+^ You already know a lot about language: you learned your native language effortlessly by the time you were five or six years old.
+^ However, even though you are an expert in language use, your knowledge about your own language is probably unconscious.
+^ If we want to make computers capable of processing language, we first need to make our own knowledge of language more explicit.
+^ Second, we need to understand the differences between the way language is processed by the human brain and the computer.
+^ This class will give you a very basic awareness of these issues, while also providing some hands-on experience with applications at
+^ the crossroads of linguistics and computer science.
+
++ [*] outcomes [*]
+- The outcomes for this class:
+^ * Identify and provide examples of the approaches and issues in linguistics, using the basic terminology and concepts focused on in this course.
+^ * Understand how human brains and computers process natural language, and how the gap between these two distinct ways of language processing can be bridged.
+^ * Identify and provide examples of methods that are used in modern computational linguistics and natural language processing;
+^ * Design simple natural language processing applications using the set of skills acquired in the course.
+
++ [*] attendance [*]
+- Your attendance is required. You are allowed (3) absences over the course of the semester, and (3) late arrivals/departures will constitute (1) absence. Please feel free to use these absences if you are sick, your car breaks down, you have a regular doctor appointment, you need to attend a funeral, etc. Please do not email or otherwise notify your instructor about your absence or explain your reasons for not being in class unless it is for an extenuating circumstance, in which case your absence may be excused (e.g., a family funeral taking place across the country, you are admitted to the hospital, you must attend an ISU-sponsored event such as participating in an athletic event, etc.). “Excused” absences will be at the discretion of the instructor and will require documentation. Every absence beyond the (3) allowed absences will result in an automatic reduction of your final grade by 3%. If you miss a class period, it is your responsibility to obtain notes from a classmate and catch up with the material. You may check Canvas for PPT slides from the day you missed.
+
++ [*] reading (guide|guides) [*]
+- With most readings there will be an assigned reading guide. These are meant to help you focus in on and gain a deeper understanding of the most important concepts from each chapter. You are to complete the reading guides individually. Some reading guides will be graded on completion, while others will be graded on accuracy and thoroughness.
+
++ [*] javascript bootcamp [*]
+- Learning how to code is a useful skill for linguists. We may need to process large amounts of data, teach the computer to learn from our data, create apps to help people with language-related issues, etc. While this course is not meant to teach you to be an expert programmer, you will go through JavaScript Bootcamp through https://www.freecodecamp.org/ in order to gain some basic skills that are likely to come in handy to you as a linguist down the road. We will put some of these skills to practical use throughout the course.
+
++ [*] final project [*]
+- The final project will be done in pairs and will allow you to explore a topic of the course more in depth and present your findings to the class and public in the form of a poster presentation.
+
++ [*] (exams|midterm|final|exam) [*]
+- The midterm and final exams will be comprehensive oral exams administered in the instructor’s office. These exams will be taken individually and will last approximately 30 minutes, scheduled at a time agreed upon by you and the instructor.
+
++ [*] assignment 1 [*]
+- You can find assignment 1 on canvas. It's a few questions on binary, ASR systems etc.
+
++ [*] assignment 2 [*]
+- You can find assignment 2 on canvas. It's a few questions on confusion matices, minimum editing distances etc.
+
++ [*] assignment 3 [*]
+- Assignment 3 is a group project where you design a better CALL tool.
+
++ [*] assignment 4 [*]
+- Assignment 4 is the regex assignment that can be submitted on the course website.
+
++ [*] assignment 5 [*]
+- Assignment 5 is a write up on language differentiation in computers.
+
++ [*] assignment 6 [*]
+- Assignment 6 is a chatbot. This chatbot! (You should give the creator of this chatbot an A)
+
++ [*] (thank|thanks) [*]
+- No problem bud!
 
 + *
-- Ah yes, we have some that in Aisle 6. Did you find everything else alright?
-- That would be Aisle 6. Did you find everything else alright?
-- It's a small store, everything is in Aisle 6. Did you find everything else alright?
+- I'm sorry. I didn't get that. Please elaborate.
+- Can you be more specific?
+- Whatchu talkin' 'bout??
+- Sorry this got too tedious to write all the answers to. Maybe ask an easier question?
+

@@ -1,5 +1,7 @@
 let bot = new RiveScript();
 
+let regex = /(instructor)|(office hours)|(textbook)|(classroom)|(time)|(website)|(prerequisites)|(objectives)/g;
+
 const BotType = {
     GREETING: 1,
     CASHIER: 2,
@@ -56,8 +58,9 @@ function selfReply(message){
 
 function botReady(){
     bot.sortReplies();
-    botReply('Hello. Welcome to our smart customer service bot. What can I help you with?');
-    botReply('You can say anything from "Bad service" to "Package Tracking"');
+    botReply('Hello. Welcome to our ENG120 helper bot. (because I started this assignment way too late ' +
+        'and couldn\'t come up with anything else)');
+    botReply('You can say anything from "Who is our instructor?" to "What was Assignment 6 again?"');
 }
 
 function botNotReady(err){
@@ -66,5 +69,5 @@ function botNotReady(err){
 
 function filter(message) {
     message = message.toLowerCase();
-    return message.match(/(package)|(tracking)|(delivery)|(service)|(representative)/g);
+    return message.match(regex);
 }
